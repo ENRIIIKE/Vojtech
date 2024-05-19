@@ -105,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -130,7 +130,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_0
+      name: Vojta_Idle_1
       rect:
         serializedVersion: 2
         x: 0
@@ -138,7 +138,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,7 +151,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_1
+      name: Vojta_Idle_2
       rect:
         serializedVersion: 2
         x: 32
@@ -159,7 +159,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,7 +172,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_2
+      name: Vojta_Strong_1
       rect:
         serializedVersion: 2
         x: 64
@@ -180,7 +180,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,7 +193,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_3
+      name: Vojta_Strong_2
       rect:
         serializedVersion: 2
         x: 96
@@ -201,7 +201,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,7 +214,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_4
+      name: Vojta_Strong_3
       rect:
         serializedVersion: 2
         x: 128
@@ -222,7 +222,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,7 +235,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_5
+      name: Vojta_Strong_4
       rect:
         serializedVersion: 2
         x: 160
@@ -243,7 +243,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,7 +256,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_6
+      name: Vojta_Strong_5
       rect:
         serializedVersion: 2
         x: 192
@@ -264,7 +264,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,7 +277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_7
+      name: Vojta_Walk_1
       rect:
         serializedVersion: 2
         x: 0
@@ -285,7 +285,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,7 +298,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_8
+      name: Vojta_Walk_2
       rect:
         serializedVersion: 2
         x: 32
@@ -306,7 +306,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,7 +319,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_9
+      name: Vojta_Walk_3
       rect:
         serializedVersion: 2
         x: 64
@@ -327,7 +327,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,7 +340,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_10
+      name: Vojta_Walk_4
       rect:
         serializedVersion: 2
         x: 96
@@ -348,7 +348,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,6 +356,27 @@ TextureImporter:
       bones: []
       spriteID: 4250e1a39aa119000800000000000000
       internalID: 40843185749886244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vojta_Strong_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e29842b1bb8b3449364d77266d125b
+      internalID: 511188666
       vertices: []
       indices: 
       edges: []
@@ -371,17 +392,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Character_0: 3427114271967980436
-      Character_1: 8158605244509288230
-      Character_10: 40843185749886244
-      Character_2: 6184959299203262911
-      Character_3: 2495864320845663737
-      Character_4: 6480803066212409350
-      Character_5: 801598655983992016
-      Character_6: -4188724102742562465
-      Character_7: -7635366936938300408
-      Character_8: 3663873800218158768
-      Character_9: 1879468920936531165
+      Vojta_Idle_1: 3427114271967980436
+      Vojta_Idle_2: 8158605244509288230
+      Vojta_Strong_1: 6184959299203262911
+      Vojta_Strong_2: 2495864320845663737
+      Vojta_Strong_3: 6480803066212409350
+      Vojta_Strong_4: 801598655983992016
+      Vojta_Strong_5: -4188724102742562465
+      Vojta_Strong_6: 511188666
+      Vojta_Walk_1: -7635366936938300408
+      Vojta_Walk_2: 3663873800218158768
+      Vojta_Walk_3: 1879468920936531165
+      Vojta_Walk_4: 40843185749886244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
