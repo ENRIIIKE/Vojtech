@@ -4,17 +4,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public enum movementState
-{
-    Idle,
-    Walk,
-    Jump
-}
 public class PlayerMovement : MonoBehaviour
 {
-    private PlayerInput playerInput;
-    private InputAction moveAction;
-    private InputAction jumpAction;
+    private PlayerInput _playerInput;
+    private InputAction _moveAction;
+    private InputAction _jumpAction;
 
     public Rigidbody2D rb;
 
@@ -27,61 +21,47 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
     public Vector2 groundCheckSize;
 
-    public Animator animator;
+    public bool isMoving;
 
-    public movementState state;
     void Awake()
     {
-        playerInput = new PlayerInput();
+        _playerInput = new PlayerInput();
     }
 
     private void OnEnable()
     {
-        moveAction = playerInput.Player.Movement;
-        moveAction.Enable();
+        _moveAction = _playerInput.Player.Movement;
+        _moveAction.Enable();
 
-        jumpAction = playerInput.Player.Jump;
-        jumpAction.Enable();
-        jumpAction.performed += OnJump;
+        _jumpAction = _playerInput.Player.Jump;
+        _jumpAction.Enable();
+        _jumpAction.performed += OnJump;
     }
     private void OnDisable()
     {
-        moveAction.Disable();
-        jumpAction.Disable();
+        _moveAction.Disable();
+        _jumpAction.Disable();
     }
 
     void Update()
     {
-        moveDirection = moveAction.ReadValue<Vector2>();
+        moveDirection = _moveAction.ReadValue<Vector2>();
 
         isGrounded = GroundCheck();
 
         if (moveDirection.x < 0)
         {
             transform.localScale = new Vector2(-1, 1);
-            state = movementState.Walk;
+            isMoving = true;
         }
         else if (moveDirection.x > 0)
         {
             transform.localScale = new Vector2(1, 1);
-            state = movementState.Walk;
+            isMoving = true;
         }
         else
-        {
-            state = movementState.Idle;
-        }
-
-        switch (state)
-        {
-            case movementState.Idle:
-                animator.Play("Idle");
-                break;
-            case movementState.Walk:
-                animator.Play("Walk");
-                break;
-            case movementState.Jump:
-                //Jump animation
-                break;
+        {   
+            isMoving = false;
         }
     }
     private void FixedUpdate()

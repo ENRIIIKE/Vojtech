@@ -357,8 +357,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
-  orthographic: 0
-  orthographic size: 3.59
+  orthographic: 1
+  orthographic size: 5.328125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -483,6 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1735579481}
   - component: {fileID: 1735579478}
+  - component: {fileID: 1735579484}
   - component: {fileID: 1735579480}
   - component: {fileID: 1735579479}
   - component: {fileID: 1735579483}
@@ -516,6 +517,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   groundCheckSize: {x: 0.3, y: 0.02}
+  isMoving: 0
 --- !u!50 &1735579479
 Rigidbody2D:
   serializedVersion: 4
@@ -647,8 +649,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -7635366936938300408, guid: 27db5850b36e2f341ac0bbf58ee50db9, type: 3}
+  m_SortingOrder: 30
+  m_Sprite: {fileID: 511188666, guid: 27db5850b36e2f341ac0bbf58ee50db9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -681,6 +683,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1735579484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735579477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42321a2c14a99d4e805e92ccd77f2a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  idleCooldownTimer: 6
 --- !u!1 &2018429063
 GameObject:
   m_ObjectHideFlags: 0
