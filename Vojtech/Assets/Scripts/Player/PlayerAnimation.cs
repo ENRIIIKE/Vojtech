@@ -64,7 +64,6 @@ public class PlayerAnimation : MonoBehaviour
     public void ResetIdle()
     {
         _animator.SetBool("Next Idle Animation", false);
-        Debug.Log("Reset Timer");
     }
 
     public IEnumerator StartIdleTimer()
@@ -75,11 +74,9 @@ public class PlayerAnimation : MonoBehaviour
         }
         _coroutinePerforming = true;
 
-        Debug.LogWarning("Starting timer");
         yield return new WaitForSecondsRealtime(idleCooldownTimer);
         _animator.SetBool("Next Idle Animation", true);
 
         _coroutinePerforming = false;
-        Debug.Log("Timer Finished");
     }
 }
