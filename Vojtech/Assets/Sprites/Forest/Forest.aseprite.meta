@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ec9e8220d5d2eb049946e51490d108ac
+guid: 43cd4cca1880bb0459cb3729142abc30
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Forest_Tilemap
+  - name: Forest
     originalName: 
-    pivot: {x: 0.503937, y: 0}
+    pivot: {x: 0.75, y: -3}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 254
-      height: 256
-    spriteID: 72bb239f5232f1642ae578ee0135b157
+      width: 128
+      height: 32
+    spriteID: 10c9f87f38d34d34faaa04b3b90629ca
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,24 +144,24 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1250441458
-    name: Forest_Tilemap
+    guid: -1229776939
+    name: Forest
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Forest_Tilemap
+    - name: Forest
       frameIndex: 0
       cellRect:
         x: 0
-        y: 0
-        width: 254
-        height: 256
-      spriteId: 72bb239f5232f1642ae578ee0135b157
+        y: 96
+        width: 128
+        height: 32
+      spriteId: 10c9f87f38d34d34faaa04b3b90629ca
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 256, y: 256}
+  canvasSize: {x: 192, y: 128}
