@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Forest_Tilemap
     originalName: 
-    pivot: {x: 0.503937, y: 0}
+    pivot: {x: 0.49600002, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 254
-      height: 49
+      width: 250
+      height: 245
     spriteID: 72bb239f5232f1642ae578ee0135b157
     spriteBone: []
     spriteOutline: []
@@ -153,10 +153,10 @@ ScriptedImporter:
     - name: Forest_Tilemap
       frameIndex: 0
       cellRect:
-        x: 0
+        x: 4
         y: 0
-        width: 254
-        height: 49
+        width: 250
+        height: 245
       spriteId: 72bb239f5232f1642ae578ee0135b157
     linkedCells: []
     parentIndex: -1
